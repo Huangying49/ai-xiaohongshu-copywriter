@@ -1,2 +1,68 @@
-# ai-xiaohongshu-copywriter
-A simple tool to generate social media copy using AI.
+# AI小红书文案生成器 🤖✍️
+
+[在这里放一张你项目的截图或演示GIF动图，视觉冲击力很强]
+
+一个使用Python和OpenAI API快速生成小红书风格文案的简易工具。它可以帮助市场运营人员快速获取创意灵感。
+
+## ✨ 功能特点
+
+- **一键生成**：输入产品关键词，即可生成多条不同风格的文案。
+- **自定义风格**：支持选择“测评”、“教程”、“好物分享”等不同文案风格。
+- **简洁易用**：提供简单的命令行界面，无需复杂配置。
+
+## 🛠 技术栈
+
+- **语言**: Python 3
+- **核心库**: `openai` library
+- **其他工具**: Git, GitHub
+
+## 🚀 快速开始
+
+### 前置条件
+
+1.  你需要有一个 [OpenAI](https://platform.openai.com/) 账号并获取API密钥。
+2.  确保你的电脑安装了Python 3。
+
+### 安装步骤
+
+1.  **克隆本项目**到你的电脑：
+    ```bash
+    git clone https://github.com/你的用户名/ai-xiaohongshu-copywriter.git
+    cd ai-xiaohongshu-copywriter
+    ```
+
+2.  **安装所需的Python库**：
+    ```bash
+    pip install openai
+    ```
+
+3.  **配置你的API密钥**：
+    *   将 `config.example.py` 文件重命名为 `config.py`。
+    *   在 `config.py` 里填入你的真实API密钥：
+    ```python
+    API_KEY = "你的-openai-api-key"
+    ```
+
+### 如何使用
+
+1.  在命令行运行：
+    ```bash
+    python main.py
+    ```
+2.  根据提示输入产品关键词（例如：”夏日防晒霜“）。
+3.  选择文案风格。
+4.  程序会输出生成的文案！
+
+## 🤔 我为什么做这个项目？
+
+我拥有市场和计算机的双重背景。我发现市场同事常常为创作海量的社交媒体文案而头疼。本项目是我对“**如何用技术工具解决实际市场问题**”的一次探索。它不仅仅是一个程序，更是一个**打通技术和业务场景的思路证明**。
+
+## 📝 未来计划
+
+- [ ] 开发一个简单的Web网页界面，让非技术人员也能方便使用。
+- [ ] 增加更多社交媒体平台（如抖音、微博）的文案模板。
+- [ ] 加入图片生成功能，实现“文图一体”的生成。
+
+## 📜 许可证
+
+这个项目是开源的，使用MIT许可证。
